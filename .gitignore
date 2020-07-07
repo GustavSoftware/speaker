@@ -1,3 +1,9 @@
 /composer.lock
 /phpunit.xml
-/vendor
+/vendor/
+.project
+.buildpath
+.settings
+/.idea/
+.phpunit.result.cache
+/data/

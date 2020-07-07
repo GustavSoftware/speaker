@@ -5,7 +5,7 @@ namespace duncan3dc\Speaker\Test\Providers;
 use duncan3dc\Speaker\Exceptions\InvalidArgumentException;
 use duncan3dc\Speaker\Exceptions\ProviderException;
 use duncan3dc\Speaker\Providers\VoiceRssProvider;
-use GuzzleHttp\ClientInterface;
+use Psr\Http\Client\ClientInterface;
 use Mockery;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;

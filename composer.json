@@ -1,5 +1,5 @@
 {
-    "name": "duncan3dc/speaker",
+    "name": "gustav/speaker",
     "type": "library",
     "description": "Convert text to speech using web services",
     "keywords": ["text-to-speech", "tts", "speech"],
@@ -10,10 +10,15 @@
         "email": "git@duncanc.co.uk",
         "homepage": "https://github.com/duncan3dc",
         "role": "Developer"
+    }, {
+        "name": "Chris Köcher",
+        "email": "ckone@fieselschweif.de",
+        "homepage": "https://gustav.fieselschweif.de"
     }],
     "require": {
         "duncan3dc/exec": "^0.3.0",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "psr/http-client": "^1.0",
         "php": "^7.2"
     },
     "require-dev": {
@@ -25,7 +30,7 @@
         "phpstan/phpstan-mockery": "^0.11.3",
         "phpstan/phpstan-phpunit": "^0.11.2",
         "squizlabs/php_codesniffer": "^3.4",
-        "phpunit/phpunit": "^8.3"
+        "phpunit/phpunit": "^9.2"
     },
     "suggest": {
         "aws/aws-sdk-php": "Allows you to use the AmazonPollyProvider"

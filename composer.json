@@ -16,7 +16,6 @@
         "homepage": "https://gustav.fieselschweif.de"
     }],
     "require": {
-        "duncan3dc/exec": "^0.3.0",
         "guzzlehttp/guzzle": "^7.0",
         "psr/http-client": "^1.0",
         "php": "^7.2"
